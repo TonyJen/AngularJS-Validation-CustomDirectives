@@ -2,9 +2,9 @@
 (function (app) {
 
     var tenant =
-                  [  
+                  [
                       {
-                          Id : 1,
+                          Id: 1,
                           FirstName: "Jose",
                           LastName: "Vowels",
                           Company: "ACME",
@@ -19,31 +19,31 @@
                           Country: "USA",
                           Email: "PamelaJCallaghan@rhyta.com",
                           Webpage: "http://JesseAIrvine.dayrep.com",
-                          Notes: " "                          
+                          Notes: " "
                       },
                       {
-                           Id : 2,
-                           FirstName: "Andrew",
-                           LastName: "Mowry",
-                           Company: "ACME",
-                           JobTitle: "Software Developer",
-                           BusinessPhone: 465478987,
-                           HomePhone: 4658978878,
-                           MobilePhone: 6987984658,
-                           FaxNumber: 235654658,
-                           Street: "2104 Melm Street",
-                           City: "Providence",
-                           State: "rhode island",
-                           Country: "USA",
-                           Email: "ClydeRPrice@jourrapide.com",
-                           Webpage: "http://ClydeRPrice.jourrapide.com",
-                           Notes: " "
-                       },
+                          Id: 2,
+                          FirstName: "Andrew",
+                          LastName: "Mowry",
+                          Company: "RIDER",
+                          JobTitle: "Software Developer",
+                          BusinessPhone: 465478987,
+                          HomePhone: 4658978878,
+                          MobilePhone: 6987984658,
+                          FaxNumber: 235654658,
+                          Street: "2104 Melm Street",
+                          City: "Providence",
+                          State: "rhode island",
+                          Country: "USA",
+                          Email: "ClydeRPrice@jourrapide.com",
+                          Webpage: "http://ClydeRPrice.jourrapide.com",
+                          Notes: " "
+                      },
                         {
                             Id: 3,
                             FirstName: "Milton",
                             LastName: "White",
-                            Company: "ACME",
+                            Company: "WINDSOR",
                             JobTitle: "Sawing machine tender",
                             BusinessPhone: 9879855465,
                             HomePhone: 6547898787,
@@ -65,15 +65,14 @@
 
         tenantFactory.getTenant = function (index) {
             var returnTenant = [];
-            if (tenantFactory.isOverflow(index))
-            {
+            if (tenantFactory.isOverflow(index)) {
                 index = 0;
             }
             returnTenant.push(tenant[index]);
             return returnTenant;
         };
 
-        tenantFactory.isOverflow = function (index){
+        tenantFactory.isOverflow = function (index) {
 
             return (tenant.length <= index)
         };
@@ -82,18 +81,17 @@
             var returnTenant = [];
             var newIndex = tenant.length + 1;
             tenant.push(tenantFactory.newItem(newIndex));
-            returnTenant.push(tenant[tenant.length -1]);
+            returnTenant.push(tenant[tenant.length - 1]);
             return (returnTenant)
         };
 
-         tenantFactory.deleteTenant = function (index) {
+        tenantFactory.deleteTenant = function (index) {
             var returnTenant = [];
 
-            tenant.splice(index,1);
-           if (tenant.length <= index)
-           {
-               index = tenant.length -1;
-           }
+            tenant.splice(index, 1);
+            if (tenant.length <= index) {
+                index = tenant.length - 1;
+            }
             returnTenant.push(tenant[index]);
             return (returnTenant)
         };

@@ -34,3 +34,9 @@ C:\Users\User\Documents\GitHub\AngularJSValidation-directives\RealEstate\RealEst
 C:\Users\User\Documents\GitHub\AngularJSValidation-directives\RealEstate\RealEstate\obj\Debug\RealEstate.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\GitHub\AngularJSValidation-directives\RealEstate\RealEstate\obj\Debug\RealEstate.dll
 C:\Users\User\Documents\GitHub\AngularJSValidation-directives\RealEstate\RealEstate\obj\Debug\RealEstate.pdb
+C:\Users\User\Documents\GitHub\AngularJS-Validation-CustomDirectives\RealEstate\RealEstate\bin\RealEstate.dll.config
+C:\Users\User\Documents\GitHub\AngularJS-Validation-CustomDirectives\RealEstate\RealEstate\bin\RealEstate.dll
+C:\Users\User\Documents\GitHub\AngularJS-Validation-CustomDirectives\RealEstate\RealEstate\bin\RealEstate.pdb
+C:\Users\User\Documents\GitHub\AngularJS-Validation-CustomDirectives\RealEstate\RealEstate\obj\Debug\RealEstate.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\AngularJS-Validation-CustomDirectives\RealEstate\RealEstate\obj\Debug\RealEstate.dll
+C:\Users\User\Documents\GitHub\AngularJS-Validation-CustomDirectives\RealEstate\RealEstate\obj\Debug\RealEstate.pdb
