@@ -52,10 +52,7 @@
                                    placeholder="Company"
                                    name="Company"
                                    ng-model="tenant.Company"
-                                   company required />
-                            <div ng-if="tenantForm.HomePhone.$pending">
-                                Calculating....
-                            </div>
+                                   company required />                            
                             <div ng-messages="tenantForm.Company.$error" ng-messages-include="messages.html" class="errors">
                             </div>
                         </div>
